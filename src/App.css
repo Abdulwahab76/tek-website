@@ -1,3 +1,51 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-img {
+  background-image: url(../src/assets/gallary.png);
+  height: 100vh;
+  background-size: cover;
+}
+.shadow {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+.btn_hover1 {
+  border-radius: 50px;
+ 
+ font-size: 14px;
+  
+  height: 40px;
+   background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+ 
+}
+
+.card{
+  border-radius: 20px;
+  background: linear-gradient(0deg, #471133 0%, #140921 100%);
+  color: #ffffff;
+  padding: 40px 30px;
+  transition: all 0.4s ease;
+}
